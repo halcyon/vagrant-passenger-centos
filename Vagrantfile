@@ -5,13 +5,13 @@ Vagrant::Config.run do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "puppet-267-centos-55-64"
+  config.vm.box_url = "http://irulan.homeunix.net/puppet-267-centos-55-64.box"
   config.vm.forward_port("web", 80, 8080, :auto => true)
   config.vm.customize do |vm|
     vm.memory_size = 2048
   end
   config.vm.provision :puppet, :module_path => "modules" , :manifests_path => "manifests" , :manifest_file => "newbox.pp"
   config.vm.share_folder "v-data", "/vagrant_data", "data"
-  config.vm.box_url = "http://irulan.homeunix.net/puppet-267-centos-55-64.box"
 
   #config.vm.provision :puppet, :module_path => "modules" , :manifests_path => "manifests" , :manifest_file => ".pp", :options => "--debug"
   #config.vm.box_url = "http://puppetlabs.s3.amazonaws.com/pub/centos5_64.box"
