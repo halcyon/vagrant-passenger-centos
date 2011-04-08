@@ -4,8 +4,8 @@ Vagrant Passenger Centos
 *  Ruby 1.9.2
 *  Vagrant
 
-. vagrant up
-. cd data/railsapp
-. rails new . --skip-git 
-. rails generate scaffold Post name:string title:string content:text
-. rake db:migrate RAILS_ENV=production
+1. vagrant up
+2. cd data/railsapp
+3. rails new . --skip-git 
+4. rails generate scaffold Post name:string title:string content:text
+5. rake db:migrate RAILS_ENV=production
