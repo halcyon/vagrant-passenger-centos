@@ -1,9 +1,12 @@
 Vagrant Passenger Centos
 ========================
+
+Requirements:
 *  VirtualBox 4.0.4 or higher
 *  Ruby 1.9.2
 *  Vagrant
 
+Steps:
 1.  vagrant up
 
 2.  cd data/railsapp
