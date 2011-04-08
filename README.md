@@ -14,3 +14,5 @@ Automated build of environment running CentOS 5.5 with Phusion Passenger to run 
 4.  rails generate scaffold Post name:string title:string content:text
 5.  rake db:migrate RAILS_ENV=production
 6.  go to [http://localhost:8080/rails/posts]: http://localhost:8080/rails/posts
+
+[localhost://8080/rails/posts]: http://localhost:8080/rails/posts
