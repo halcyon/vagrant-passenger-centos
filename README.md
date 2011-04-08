@@ -1,14 +1,12 @@
 Vagrant Passenger Centos
-========================
+===================
 
-Requirements:
-
+#Requirements#
 *   VirtualBox 4.0.4 or higher
 *   Ruby 1.9.2
 *   Vagrant
 
-Create a rails app:
-
+#Create a rails app#
 1.  vagrant up
 2.  cd data/railsapp
 3.  rails new . --skip-git 
