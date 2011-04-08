@@ -1,3 +1,6 @@
+#Vagrant Passenger Centos#
+Automated build of environment running CentOS 5.5 with Phusion Passenger to run Rails Applications
+
 #Requirements#
 - VirtualBox 4.0.4 or higher
 - Ruby 1.9.2
